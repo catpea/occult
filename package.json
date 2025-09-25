@@ -1,0 +1,24 @@
+{
+  "name": "occult",
+  "description": "Painfully Powerful Reactive Array and Object",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "save": "git add .; git commit -m 'Updated Release'; npm version patch; npm publish; git push --follow-tags;"
+  },
+  "keywords": [
+    "state",
+    "signals",
+    "reactive"
+  ],
+  "author": "@catpea",
+  "license": "GPL",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/catpea/occult.git"
+  },
+  "bugs": {
+    "url": "https://github.com/catpea/occult/issues"
+  },
+  "homepage": "https://github.com/catpea/occult#readme"
+}
